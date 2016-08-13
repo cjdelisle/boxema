@@ -1,6 +1,7 @@
 {
     "laxcomma": true,
     "laxbreak": true,
+    "node": true,
     "sub": true,
     "curly": true,
     "eqeqeq": true,
@@ -11,13 +12,5 @@
     "shadow": false,
     "undef": true,
     "unused": false,
-    "futurehostile":true,
-    "browser": true,
-    "predef": [
-        "console",
-        "define",
-        "require",
-        "module",
-        "__dirname"
-    ]
+    "esversion": 6
 }

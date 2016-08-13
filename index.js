@@ -17,12 +17,13 @@ const create = module.exports.create = (period) => {
         update: (val) => {
             const idx = i++ % period;
             box[idx] = val;
-            let out = 0;
-            for (let j = idx, k = 0; k < period; j = (j || period) - 1, k++) {
-                out += box[j] * multiplers[k];
+            last = 0;
+            for (let j = idx, k = 0; k < period; k++) {
+                last += box[j] * multiplers[k];
+                j = (j || period) - 1;
             }
-            return last = out;
+            return last;
         },
         get: () => (last)
-    }
+    };
 };
