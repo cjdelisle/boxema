@@ -1,0 +1,17 @@
+{
+    "name": "boxema",
+    "description": "Exponential Moving Average based on a box filter, matching numpy example EMA",
+    "version": "0.0.0",
+    "repository": "https://github.com/cjdelisle/boxema.git",
+    "license": "MIT",
+    "dependencies": {
+        "linspace": "~1.0.0"
+    },
+    "devDependencies": {
+        "jshint": "~2.9.1"
+    },
+    "scripts": {
+        "lint": "jshint --verbose --config .jshintrc --exclude-path .jshintignore .",
+        "test": "node test"
+    }
+}
