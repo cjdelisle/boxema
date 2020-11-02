@@ -1,4 +1,7 @@
 # Box filter based Exponential Moving Average
+
+Status: unmaintained
+
 This EMA is designed to be identical to the EMA given in http://matplotlib.org/examples/pylab_examples/finance_work2.html
 however it is rolling (can be updated at any time). Because it is a rolling EMA, beware that the
 first *n* results will be different from the python example. This is because the python example uses
